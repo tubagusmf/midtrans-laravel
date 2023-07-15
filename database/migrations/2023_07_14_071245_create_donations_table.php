@@ -17,7 +17,7 @@ return new class extends Migration
             $table->bigIncrements('id');
             $table->string('donor_name')->nullable();
             $table->string('donor_email')->nullable();
-            $table->string('donor_type')->nullable();
+            $table->string('donation_type')->nullable();
             $table->string('amount', 20, 2)->deafult(0);
             $table->string('note')->nullable();
             $table->string('status')->default('pending');

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Donation;
+use App\Models\Donation;
 use Midtrans_Config;
 use Midtrans_Snap;
 use Midtrans_Notification;
